@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEARCH</title>
+</head>
+<body>
+  <style>
+    .FORM{
+   margin-left: 300px;
+   margin-top: 200px;
+   margin-right: 500px;
+   padding: 120px;
+   border-radius: 12px;
+   background-color: aquamarine;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: larger;
+   box-shadow: 20px 20px 10px black;
+   border-color: black;
+   border-inline-start-color: black;
+      
+    }
+    .searchbar{
+      width: 350px;
+      height: 50px;
+      border-radius: 12px;
+      margin-right: 50px;
+    }
+    #submit{
+      border: none;
+      border-radius: 15px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      width: 250px;
+      height: 45px;
+      margin-top: 60px;
+      margin-left: 120px;
+      font-size: larger;
+      cursor: pointer;
+    }
+    
+
+  </style>
+  <form action="search.php" name="search" method="post" class="FORM">
+    <label>SEARCH: </label>
+    <input type="search" name="searchbar" placeholder="enter username" class="searchbar">
+    <input type="submit" name="submit" id="submit">
+
+  </form>
+</body>
+</html>
